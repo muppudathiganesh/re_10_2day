@@ -1,12 +1,14 @@
+// src/App.jsx
 import React from "react";
-import Counter from "./components/Counter";
-// or import CounterWithHook from "./components/CounterWithHook";
+import UserList from "./components/UserList";
 
-export default function App(){
+function App() {
   return (
-    <div>
-      <h1 style={{ padding: 20 }}>Demo</h1>
-      <Counter />
+    <div className="App">
+      <h1>Users</h1>
+      <UserList />
     </div>
-  )
+  );
 }
+
+export default App;
